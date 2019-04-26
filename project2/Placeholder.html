@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+
+        .dropbtn {
+          background-color: #4CAF50;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+        }
+
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          z-index: 1;
+        }
+
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        .dropdown-content a:hover {
+          background-color:#ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+          background-color: #3e8e41;
+        }
+
+        .topnav {
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 16px;
+          font-size: 16px;
+          border: none;
+          position: relative;
+          display: inline-block;
+        }
+
+
+
+        .topnav a:hover {
+          background-color:#ddd;
+        }
+
+      </style>
+    </head>
+    <body>
+      <div class="topnav">
+        <a href="JSInfo.html" >JavaScript Info</a>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">Home</button>
+          <div class="dropdown-content">
+            <a href="home.html" target="_parent">Home</a>
+          </div>
+        </div>
+
+       <div class="dropdown">
+        <button class="dropbtn">JavaScript info</button>
+          <div class="dropdown-content">
+          </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Date/Time</button>
+        <div class="dropdown-content">
+          <a href="date_time.html">Timestamp</a>
+          <a href="#">Today is</a>
+          <a href="#">Timezone</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Cookies</button>
+        <div class="dropdown-content">
+          <a href="#">Enable/Disable</a>
+          <a href="#">Create/Retrieve</a>
+          <a href="#">Modify/Delete</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Form</button>
+        <div class="dropdown-content">
+          <a href="#">Get</a>
+          <a href="#">Post</a>
+          <a href="#">Upload</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Database</button>
+        <div class="dropdown-content">
+          <a href="date_time.html">(Reserved)</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Sessions</button>
+        <div class="dropdown-content">
+          <a href="#">Start</a>
+          <a href="#">Get/Modify</a>
+          <a href="#">Destroy</a>
+        </div>
+      </div>
+
+
+        <!--<div class="topnav">
+              <a class="active" href="home.html" target="_top">Home</a>
+              <a href="form.html" target="_parent">JavaScript info</a>
+            </div>
+
+          <div class="dropdown">
+              <button class="dropbtn">Home</button>
+              <div class="dropdown-content">
+              </div>
+            </div>
+
+           <div class="dropdown">
+            <button class="dropbtn">JavaScript info</button>
+              <div class="dropdown-content">
+              </div>
+          </div>
+          -->
+
+    </body>
+  </html>
